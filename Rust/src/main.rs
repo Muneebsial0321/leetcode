@@ -1,6 +1,6 @@
-mod _35_search_insert_position;
+mod _278_first_bad_version;
 
 fn main() {
-    let result = _35_search_insert_position::Solution::search_insert(vec![1,3,5,6],2);
+    let result = _278_first_bad_version::Solution::first_bad_version(2);
     println!("{:?}", result);
 }
