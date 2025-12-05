@@ -1,6 +1,6 @@
-mod _278_first_bad_version;
+mod _28_find_the_duplicate_number;
 
 fn main() {
-    let result = _278_first_bad_version::Solution::first_bad_version(2);
+    let result = _28_find_the_duplicate_number::Solution::find_duplicate(vec![3,1,3,4,2]);
     println!("{:?}", result);
 }
